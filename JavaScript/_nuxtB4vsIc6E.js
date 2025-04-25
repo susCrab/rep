@@ -1,0 +1,1 @@
+import"./B5Cna7aG.js";const e=""+new URL("tg-gray.6no8MaHd.webp",import.meta.url).href,r=""+new URL("vk-icon-white.CxlL7-MS.webp",import.meta.url).href;export{e as _,r as a};

@@ -1,0 +1,1 @@
+import{g as r,r as o}from"./B5Cna7aG.js";import{r as t}from"./BOV8WsfY.js";function i(){const i=o(),n=r();return{redirect:()=>{const r=window.location.href;i(`${n.id_link}/auth?gold=${t(r)}`)}}}export{i as u};

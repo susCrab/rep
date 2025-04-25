@@ -1,0 +1,1 @@
+import"./B5Cna7aG.js";const e=""+new URL("kz.B-9GjJxZ.webp",import.meta.url).href,r=""+new URL("ru.Ctenh1KE.webp",import.meta.url).href;export{e as k,r};

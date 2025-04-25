@@ -1,0 +1,1 @@
+function e(e){return e.endsWith("/")?e.slice(0,-1):e}export{e as r};

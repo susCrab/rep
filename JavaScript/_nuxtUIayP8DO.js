@@ -1,0 +1,1 @@
+import{b as o}from"./CfmBXBX3.js";const n=o(!1);function t(){return{isLoginModalOpen:n,openModal:function(){n.value=!0}}}export{t as u};

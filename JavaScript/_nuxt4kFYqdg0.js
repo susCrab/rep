@@ -1,0 +1,1 @@
+import{j as e}from"./B5Cna7aG.js";import{M as s}from"./CfmBXBX3.js";const t={__name:"default",setup(t){const a=e();return["/preland","/parse-steam-review","/service","/order-status-plati"].includes(a.path),(e,t)=>s(e.$slots,"default")}};export{t as default};

@@ -1,0 +1,1 @@
+import{b as n}from"./CfmBXBX3.js";const o=n(!1),e=n(""),t=n(!1);function a(){return{isCurrencyModalOpen:o,currentContentModal:e,isExchangeContentOpen:t,openModal:function(n){o.value=!0,e.value=n},closeModal:function(){o.value=!1}}}export{a as u};

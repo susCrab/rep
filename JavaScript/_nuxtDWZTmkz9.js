@@ -1,0 +1,1 @@
+import{p as s}from"./B5Cna7aG.js";const t=s("/assets/img/vk-connect.webp"),e=s("/assets/img/tg-connect.webp");export{t as _,e as a};

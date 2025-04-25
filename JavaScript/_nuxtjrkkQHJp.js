@@ -1,0 +1,1 @@
+import"./B5Cna7aG.js";const r=""+new URL("arrow.cMYvyJKo.svg",import.meta.url).href;export{r as _};

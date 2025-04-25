@@ -1,0 +1,1 @@
+import{p as s}from"./B5Cna7aG.js";const o=s("/assets/img/loading.gif");export{o as _};

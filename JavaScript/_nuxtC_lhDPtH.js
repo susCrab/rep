@@ -1,0 +1,1 @@
+var n=function(n){var t=typeof n;return null!=n&&("object"==t||"function"==t)};var t=function(n){return null!=n&&"object"==typeof n};export{t as a,n as i};
