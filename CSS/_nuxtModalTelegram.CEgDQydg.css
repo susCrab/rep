@@ -1,0 +1,88 @@
+html[data-v-76feb657] {
+    scroll-behavior: smooth;
+}
+
+.telegram-modal[data-v-76feb657] {
+    color: #fff;
+    margin-top: -20px;
+    max-width: 360px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.telegram-modal h1[data-v-76feb657] {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.telegram-modal p[data-v-76feb657] {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 8px;
+}
+
+.telegram-modal_btn[data-v-76feb657] {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.telegram-modal_btn[data-v-76feb657],
+.vk-modal_btn[data-v-76feb657] {
+    display: flex;
+    justify-content: center;
+}
+
+.vk-modal_btn[data-v-76feb657] {
+    align-items: center;
+    background-color: #0b5cfe;
+    border-radius: 36px;
+    cursor: pointer;
+    height: 40px;
+    margin: 8px auto 0;
+    padding: 0;
+    width: 233px;
+}
+
+.vk-modal_btn img[data-v-76feb657] {
+    height: 24px;
+    width: 24px;
+}
+
+.vk-modal_btn span[data-v-76feb657] {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 5px;
+}
+
+.modal-danger-text[data-v-76feb657] {
+    background: #ff3e6026;
+    border-radius: 16px;
+    margin-top: 12px;
+    padding: 16px 20px;
+}
+
+.modal-danger-text[data-v-76feb657],
+.modal-danger-text a[data-v-76feb657] {
+    color: #ff3e60;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.pon-btn[data-v-76feb657] {
+    align-items: center;
+    background: #ffffff1a;
+    border-radius: 36px;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 56px;
+    justify-content: center;
+    line-height: 16px;
+    margin-top: 32px;
+    width: 100%;
+}

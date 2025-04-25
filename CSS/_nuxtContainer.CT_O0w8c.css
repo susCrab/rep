@@ -1,0 +1,75 @@
+html[data-v-4359b3bd] {
+    scroll-behavior: smooth;
+}
+
+.load[data-v-4359b3bd] {
+    display: flex;
+    gap: .5rem;
+}
+
+.load .dot[data-v-4359b3bd] {
+    animation: dotBounce-4359b3bd 2.4s infinite;
+    background-color: #00ff934d;
+    border-radius: 9999px;
+    height: .5rem;
+    width: .5rem;
+}
+
+.load .dot[data-v-4359b3bd]:first-of-type {
+    animation-delay: 0s;
+}
+
+.load .dot[data-v-4359b3bd]:nth-of-type(2) {
+    animation-delay: .6s;
+}
+
+.load .dot[data-v-4359b3bd]:nth-of-type(3) {
+    animation-delay: 1.2s;
+}
+
+.load .dot[data-v-4359b3bd]:nth-of-type(4) {
+    animation-delay: 1.8s;
+}
+
+.load--orange .dot[data-v-4359b3bd] {
+    border-radius: 9999px;
+    height: .5rem;
+    width: .5rem;
+    --tw-bg-opacity: 1;
+    animation: dotBounceOrange-4359b3bd 2.4s infinite;
+    background-color: rgb(255 130 38 / var(--tw-bg-opacity));
+}
+
+@keyframes dotBounce-4359b3bd {
+    0% {
+        transform: translateY(0);
+    }
+    12.5% {
+        background: #00ff93;
+        transform: translateY(-6px);
+    }
+    25% {
+        background: #00ff934d;
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes dotBounceOrange-4359b3bd {
+    0% {
+        transform: translateY(0);
+    }
+    12.5% {
+        background: #8c3b00;
+        transform: translateY(-6px);
+    }
+    25% {
+        background: #fff8f2;
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

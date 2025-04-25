@@ -1,0 +1,65 @@
+html[data-v-93d00be5] {
+    scroll-behavior: smooth;
+}
+.getfree-ticker[data-v-93d00be5] {
+    background: #ffffff0d;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    min-height: 48px;
+    overflow: hidden;
+    padding: 16px 0;
+    text-decoration: underline;
+}
+.getfree-ticker[data-v-93d00be5]:hover {
+    background: #ffffff40;
+}
+.getfree-ticker[data-v-93d00be5] .marquee + .marquee {
+    margin-left: 50px;
+}
+.getfree-ticker[data-v-93d00be5] .vue3-marquee {
+    overflow: hidden;
+}
+.getfree-ticker p + p[data-v-93d00be5] {
+    margin-left: 50px;
+}
+html[data-v-6daf7531] {
+    scroll-behavior: smooth;
+}
+.ticker[data-v-6daf7531] {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.ticker_text[data-v-6daf7531] {
+    background: #ffffff0d;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    padding: 8px 16px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.marquee[data-v-6daf7531] {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.marquee__item[data-v-6daf7531] {
+    align-items: center;
+    background-color: #ffffff1a;
+    border-radius: 8px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 8px;
+    height: 52px;
+    line-height: 20px;
+    margin: 0 4px;
+    padding: 8px;
+}
+.marquee__item img[data-v-6daf7531] {
+    border-radius: 4px;
+    height: 36px;
+    width: 36px;
+}

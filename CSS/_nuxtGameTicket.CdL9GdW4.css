@@ -1,0 +1,541 @@
+html[data-v-4488b36d] {
+    scroll-behavior: smooth;
+}
+
+.swiper-slide img[data-v-4488b36d] {
+    width: 100%;
+}
+
+.border-liner[data-v-4488b36d] {
+    border-top: 1px solid gray;
+}
+
+.game-ticket[data-v-4488b36d] {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    position: relative;
+    transition: transform .3s ease;
+    grid-column-gap: 16px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1;
+    text-align: left;
+}
+
+@media (min-width: 1281px) {
+    .game-ticket[data-v-4488b36d]:hover {
+        background-color: #191a20;
+        border-color: #ffffff1a;
+        margin: -12px;
+        padding: 12px;
+        transform: scale(1.05);
+    }
+}
+
+@media (max-width: 1550px) {
+    .game-ticket[data-v-4488b36d] {
+        grid-template-columns: 260px 1fr;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket[data-v-4488b36d] {
+        grid-template-columns: 1fr;
+        position: relative;
+        grid-row-gap: 12px;
+        border: none;
+    }
+}
+
+@media (any-pointer: fine) {
+    .game-ticket:hover .game-ticket__body__information-description[data-v-4488b36d] {
+        -webkit-line-clamp: 2;
+    }
+
+    .game-ticket:hover .game-ticket__body__information-description--full[data-v-4488b36d] {
+        -webkit-line-clamp: 3;
+        margin-bottom: 5px;
+    }
+}
+
+@media (any-pointer: fine) and (max-width: 1550px) {
+    .game-ticket:hover .game-ticket__body__information-description--full[data-v-4488b36d] {
+        -webkit-line-clamp: 2;
+    }
+}
+
+@media (any-pointer: fine) and (min-width: 1550px) {
+    .game-ticket:hover .game-ticket__body__information-description--full[data-v-4488b36d] {
+        margin-bottom: 7px;
+    }
+}
+
+@media (any-pointer: fine) and (min-width: 1281px) {
+    .game-ticket:hover .game-ticket__body__information-description[data-v-4488b36d] {
+        display: block;
+        display: -webkit-box;
+        padding-right: 16px;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.game-ticket--no-hover .game-ticket__body__information-description[data-v-4488b36d] {
+    display: none !important;
+}
+
+.game-ticket__image[data-v-4488b36d] {
+    border-radius: 8px;
+    display: block;
+    height: 150px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition-duration: .3s;
+    transition-property: height, border-radius;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+}
+
+@media (max-width: 1550px) {
+    .game-ticket__image[data-v-4488b36d] {
+        height: 122px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__image[data-v-4488b36d] {
+        border-radius: 16px;
+        height: calc(35vw - 25.2px);
+        transition: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .game-ticket__image[data-v-4488b36d] {
+        height: calc(75vw - 27px);
+    }
+}
+
+.game-ticket__container[data-v-4488b36d] {
+    display: flex;
+    flex-direction: column;
+    transition-duration: .3s;
+    transition-property: padding;
+    transition-timing-function: ease-in-out;
+}
+
+.game-ticket__header[data-v-4488b36d] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 16px;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+@media (max-width: 1551px) {
+    .game-ticket__header[data-v-4488b36d] {
+        margin-top: 1px;
+    }
+}
+
+.game-ticket__header-title[data-v-4488b36d] {
+    font-size: 24px;
+    font-weight: 700;
+    transition-duration: .3s;
+    transition-property: padding-top;
+    transition-timing-function: ease-in-out;
+}
+
+@media (max-width: 1550px) {
+    .game-ticket__header-title[data-v-4488b36d] {
+        grid-column-gap: 8px;
+        font-size: 20px;
+        line-height: 1.2;
+        transition-property: margin-top;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__header-title[data-v-4488b36d] {
+        letter-spacing: -.6px;
+    }
+}
+
+.game-ticket__header-title__container[data-v-4488b36d] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 8px;
+    align-items: start;
+    color: #fff;
+    justify-content: start;
+}
+
+@media (max-width: 1550px) {
+    .game-ticket__header-title__container[data-v-4488b36d] {
+        grid-auto-flow: row;
+        grid-row-gap: 4px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__header-title__select[data-v-4488b36d] {
+        color: #ffffffb3;
+        font-size: 16px;
+        font-weight: 500;
+        grid-row: 1/2;
+        letter-spacing: -.48px;
+        line-height: 1.34;
+    }
+}
+
+@media (min-width: 1281px) {
+    .game-ticket__header-title__select[data-v-4488b36d] {
+        display: grid;
+        grid-auto-flow: column;
+        grid-column-gap: 10px;
+        align-items: center;
+        background-color: #2c2d32;
+        border: 1px solid hsla(0, 0%, 100%, .1);
+        border-radius: 16px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-left: 8px;
+        padding: 6px 8px 6px 12px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__header-title__select-icon[data-v-4488b36d] {
+        display: none;
+    }
+}
+
+.game-ticket__header-title__tags[data-v-4488b36d] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 4px;
+    justify-content: start;
+    margin-top: 5px;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__header-title__tags[data-v-4488b36d] {
+        display: none;
+    }
+}
+
+.game-ticket__header-title__tags-item[data-v-4488b36d] {
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    border-radius: 30px;
+    color: #fffc;
+    font-size: 12px;
+    padding: 6px 8px;
+}
+
+.game-ticket__header-title__tags-item--highlighted[data-v-4488b36d] {
+    background-color: #ffffff1a;
+}
+
+.game-ticket__header__button[data-v-4488b36d] {
+    align-items: center;
+    background-color: #ffffff40;
+    border-radius: 50%;
+    display: grid;
+    height: 40px;
+    justify-content: center;
+    padding: 0;
+    transition-duration: .3s;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    width: 40px;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__header__button[data-v-4488b36d] {
+        height: 32px;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        width: 32px;
+    }
+}
+
+.game-ticket__header__button--in-favorites[data-v-4488b36d] {
+    background-color: #ff3e60;
+}
+
+.game-ticket__header__button-icon[data-v-4488b36d] {
+    fill: transparent;
+    transition-duration: .3s;
+    transition-property: fill;
+    transition-timing-function: ease-in-out;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__header__button-icon[data-v-4488b36d] {
+        height: 12px;
+        width: 14px;
+    }
+}
+
+.game-ticket__header__button--in-favorites .game-ticket__header__button-icon[data-v-4488b36d] {
+    fill: #fff;
+}
+
+.game-ticket__body[data-v-4488b36d] {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+@media (max-width: 1550px) {
+    .game-ticket__body[data-v-4488b36d] {
+        align-items: flex-end;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body[data-v-4488b36d] {
+        display: block;
+        margin-top: 4px;
+    }
+}
+
+.game-ticket__body__information[data-v-4488b36d] {
+    align-self: flex-start;
+}
+
+.game-ticket__body__information-dates[data-v-4488b36d],
+.game-ticket__body__information-reviews[data-v-4488b36d] {
+    align-items: center;
+    color: #fff9;
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    justify-content: start;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__information-reviews__summary[data-v-4488b36d] {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.16;
+    }
+}
+
+.game-ticket__body__information-reviews__summary--green[data-v-4488b36d] {
+    color: #00ff93;
+}
+
+.game-ticket__body__information-reviews__summary--red[data-v-4488b36d] {
+    color: #ff3e60;
+}
+
+.game-ticket__body__information-reviews__negative[data-v-4488b36d],
+.game-ticket__body__information-reviews__positive[data-v-4488b36d] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 2px;
+    align-items: center;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__information-reviews__negative[data-v-4488b36d],
+    .game-ticket__body__information-reviews__positive[data-v-4488b36d] {
+        display: none;
+    }
+}
+
+.game-ticket__body__information-reviews__positive[data-v-4488b36d] {
+    color: #00ff93;
+}
+
+.game-ticket__body__information-reviews__negative[data-v-4488b36d] {
+    color: #ff3e60;
+}
+
+.game-ticket__body__information-description[data-v-4488b36d] {
+    color: #fff9;
+    display: none;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    text-align: justify;
+    text-align: left;
+}
+
+@media (max-width: 1550px) {
+    .game-ticket__body__information-description[data-v-4488b36d] {
+        margin-bottom: 1px;
+    }
+}
+
+.game-ticket__body__information-dates[data-v-4488b36d] {
+    line-height: 1.2;
+    margin-top: 3px;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__information-dates[data-v-4488b36d] {
+        display: none;
+    }
+}
+
+.game-ticket__body__information-dates__button[data-v-4488b36d] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 4px;
+    align-items: center;
+    color: #fff;
+    font-family: Geometria;
+    font-size: 14px;
+    padding: 0;
+}
+
+.game-ticket__body__bottom[data-v-4488b36d] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 8px;
+    height: -moz-max-content;
+    height: max-content;
+    margin: auto 0 0 16px;
+}
+
+@media (max-width: 1550px) {
+    .game-ticket__body__bottom[data-v-4488b36d] {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__bottom[data-v-4488b36d] {
+        margin: 0;
+    }
+}
+
+.game-ticket__body__price[data-v-4488b36d] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 2px 8px;
+    align-items: center;
+    background-color: #ffffff1a;
+    border-radius: 12px;
+    padding: 8px 16px;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__price[data-v-4488b36d] {
+        grid-column-gap: 2px;
+        align-items: center;
+        background-color: transparent;
+        justify-content: start;
+        padding: 0;
+    }
+}
+
+.game-ticket__body__price-discount[data-v-4488b36d] {
+    background-color: #00ff921a;
+    border-radius: 8px;
+    color: #00ff93;
+    font-size: 24px;
+    font-weight: 600;
+    grid-row: 1/3;
+    margin: -4px 0 -4px -12px;
+    padding: 12px;
+}
+
+@media (max-width: 1550px) {
+    .game-ticket__body__price-discount[data-v-4488b36d] {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__price-discount[data-v-4488b36d] {
+        font-size: 10px;
+        font-weight: 700;
+        grid-row: 1/2;
+        line-height: normal;
+        margin: 0;
+        padding: 4px;
+    }
+}
+
+@media (max-width: 767px) {
+    .game-ticket__body__price-discount[data-v-4488b36d] {
+        font-size: 8px;
+    }
+}
+
+.game-ticket__body__price-old[data-v-4488b36d] {
+    color: #ffffffb3;
+    font-size: 12px;
+    font-weight: 400;
+    grid-row: 1/2;
+    text-align: right;
+    text-decoration-line: line-through;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__price-old[data-v-4488b36d] {
+        font-size: 10px;
+        margin: 8px 0 0 2px;
+        order: 1;
+    }
+}
+
+.game-ticket__body__price-coins[data-v-4488b36d] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 4px;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    grid-row: 2/3;
+}
+
+@media (max-width: 1550px) {
+    .game-ticket__body__price-coins[data-v-4488b36d] {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__price-coins[data-v-4488b36d] {
+        font-size: 18px;
+        grid-row: 1/2;
+    }
+
+    .game-ticket__body__price-coins__icon[data-v-4488b36d] {
+        width: 16px;
+    }
+}
+
+.game-ticket__body__link[data-v-4488b36d] {
+    align-items: center;
+    background-color: #00ff93;
+    border-radius: 12px;
+    color: #000;
+    display: grid;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: -.48px;
+    line-height: 1;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+@media (max-width: 1280px) {
+    .game-ticket__body__link[data-v-4488b36d] {
+        display: none;
+    }
+}

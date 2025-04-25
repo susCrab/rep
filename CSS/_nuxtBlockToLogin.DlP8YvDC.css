@@ -1,0 +1,46 @@
+html[data-v-ef15af69] {
+    scroll-behavior: smooth;
+}
+.to-login[data-v-ef15af69] {
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    border-radius: 16px;
+    display: flex;
+    overflow: hidden;
+    --tw-bg-opacity: .05;
+}
+.to-login__backdrop[data-v-ef15af69] {
+    width: 126px;
+}
+.to-login__content[data-v-ef15af69] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+}
+.to-login__title[data-v-ef15af69] {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.to-login__description[data-v-ef15af69] {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: .25rem;
+    opacity: .5;
+}
+@media (min-width: 1281px) {
+    .to-login__description[data-v-ef15af69] {
+        font-size: 12px;
+    }
+}
+.to-login__btn[data-v-ef15af69] {
+    margin-top: .75rem;
+}
+@media (max-width: 1280px) {
+    .to-login[data-v-ef15af69] {
+        display: none;
+    }
+}

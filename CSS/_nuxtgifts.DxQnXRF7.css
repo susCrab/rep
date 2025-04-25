@@ -1,0 +1,52 @@
+html[data-v-0edcb1c0] {
+    scroll-behavior: smooth;
+}
+
+.g-tapbar[data-v-0edcb1c0] {
+    bottom: 0;
+    height: 3.5rem;
+    left: 0;
+    padding-bottom: .75rem;
+    padding-top: .5rem;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    --tw-bg-opacity: 1;
+    background-color: rgb(33 34 39 / var(--tw-bg-opacity));
+    -moz-column-gap: 1.5rem;
+    column-gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .g-tapbar[data-v-0edcb1c0] {
+        -moz-column-gap: 3rem;
+        column-gap: 3rem;
+        height: 68px;
+        padding-bottom: 1.25rem;
+        padding-top: .75rem;
+    }
+}
+
+.g-tapbar__item[data-v-0edcb1c0] {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    min-width: 67px;
+    opacity: .5;
+}
+
+.g-tapbar__item--active[data-v-0edcb1c0] {
+    opacity: 1;
+}
+
+.g-tapbar__title[data-v-0edcb1c0] {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
